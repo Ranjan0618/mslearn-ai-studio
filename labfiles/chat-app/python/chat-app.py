@@ -2,6 +2,9 @@ import os
 from dotenv import load_dotenv
 
 # Add references
+from azue.core.credentials import AzureKeyCredential
+from azure.ai.projects import ProjectClient
+from openai import AzureOpenAI
 
 
 def main(): 
